@@ -3,17 +3,37 @@
  * CSS FILE
  */
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #fb8500;
+ header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
+nav {
+  display: flex;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+nav ul {
+  list-style: none;
+}
+
 h1 {
-  font-size: 2rem;
+  font-size: 4rem;
   font-weight: bold;
   text-align: center;
   color: #023047;
 }
+
+/* 
+ display: flex;
+  justify-content: center;
+  align-items: center;
+*/
