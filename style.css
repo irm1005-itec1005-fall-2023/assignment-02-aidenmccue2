@@ -4,8 +4,8 @@
  */
 
  header {
-  background-color: #333;
-  color: #fff;
+  background-color: #49111c;
+  color: #f2f4f3;
   padding: 10px;
   display: flex;
   justify-content: space-between;
@@ -16,26 +16,58 @@
 }
 nav {
   display: flex;
+  font-size: 25px;
 }
 .logo {
-  max-width: 100px; /* Adjust the size of your logo as needed */
+  max-height: 5rem; /* Adjust the size of your logo as needed */
   margin: 0 auto; /* Horizontally center the logo within the header */
 }
 nav a {
-  color: #fff;
+  color: #f2f4f3;
   text-decoration: none;
   margin-right: 20px;
-}
-nav ul {
-  list-style: none;
+  
 }
 
-h1 {
+body {
+  background-color: #f2f4f3;
+}
+
+.hero {
   font-size: 4rem;
   font-weight: bold;
   text-align: center;
-  color: #023047;
+  color: #0a0908;
 }
+.heroImageContainer {
+  position: relative; /* set container to a relative position */
+  .heroImageContainer {
+    position: relative;
+    width: 800px; /* Set to the actual image width */
+    height: 400px; /* Set to the actual image height */
+  }
+  
+}
+button {
+  color: #f2f4f3;
+  background-color: #0a0908;
+  padding: 60px 80px; 
+  font-size: 64px;
+  border: none;
+}
+
+.heroButton {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+
+
 
 /* 
  display: flex;
