@@ -11,6 +11,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .headerTitle {
  font-size: 2rem;
 }
@@ -26,7 +27,6 @@ nav a {
   color: #f2f4f3;
   text-decoration: none;
   margin-right: 20px;
-  
 }
 
 body {
@@ -40,13 +40,15 @@ body {
   color: #0a0908;
 }
 .heroImageContainer {
-  position: relative; /* set container to a relative position */
-  .heroImageContainer {
-    position: relative;
-    width: 800px; /* Set to the actual image width */
-    height: 400px; /* Set to the actual image height */
-  }
-  
+  position: relative; 
+}
+
+.heroBtn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 button {
   color: #f2f4f3;
@@ -54,21 +56,25 @@ button {
   padding: 60px 80px; 
   font-size: 64px;
   border: none;
+  transition: background-color 0.3s, color 0.3s; /* Add transition for smooth hover effect */
 }
 
-.heroButton {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+button:hover {
+  color: #f2f4f3;
+  background-color: #49111c;
 }
 
-
-
-
-
-
+footer {
+  background-color: #49111c;
+  color: #f2f4f3;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  list-style: none;
+}
 /* 
  display: flex;
   justify-content: center;
