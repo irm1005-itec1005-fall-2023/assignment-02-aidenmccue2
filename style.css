@@ -75,6 +75,20 @@ footer {
 ul {
   list-style: none;
 }
+.newReleases {
+  font-size: 2rem;
+  text-align: center;
+  color: #0a0908;
+}
+.newReleasesImagesContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #49111c;
+}
+.newReleaseImages {
+  max-height: 500px;
+}
 /* 
  display: flex;
   justify-content: center;
